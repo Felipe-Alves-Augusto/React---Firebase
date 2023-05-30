@@ -1,0 +1,124 @@
+.Listagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 31px 20px;
+    flex-direction: column;
+}
+
+.Listagem header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Listagem header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.Listagem header .logout {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-items {
+    width: 700px;
+    margin-top: 50px;
+}
+
+.list-items table {
+    width: 100%;
+}
+
+.list-items td a img {
+    height: 73px;
+    object-fit: cover;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .termometro {
+    width: 10px;
+    height: 60px;
+    
+  }
+
+  .wrapper-termometro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+  }
+
+
+  .termometro.red {
+    background-color: red;
+  }
+
+  .termometro.green{
+    background-color: green;
+  }
+
+  .termometro.yellow{
+    background-color: yellow;
+  }
+
+  .btn {
+    width: 213px;
+    height: 45px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    background: goldenrod;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #b88a17;
+}
+
+
+.btn-new-consult {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .list-items {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .Listagem header {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .Listagem header .logout {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+
+    .Listagem header .logout svg {
+        width: 100%;
+    }
+}

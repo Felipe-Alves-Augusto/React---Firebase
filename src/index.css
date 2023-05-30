@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Open-sans';
+    src: url(../public/fonts/OpenSans-Medium.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-sans';
+}
+
+p, a, span, h1, h2, h3, h4, h5, h6, label, input, button, th, td {
+    color: #fff !important;
+}
+
+svg {
+    fill: #fff !important;
+}
+
+html, body {
+    height: 100%;
+    background-color: #222;
+}

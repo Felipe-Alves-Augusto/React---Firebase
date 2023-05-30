@@ -1,0 +1,103 @@
+.cadastro-cartelas, .wrapper-cadastro-sucesso {
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cadastro-cartelas h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    /* Black */
+
+    color: #000000;
+}
+
+.cadastro-cartelas .icon-img {
+    margin-top: 35px;
+}
+
+.cadastro-cartelas .input-file {
+    margin-top: 23px;
+}
+
+
+.img-choice {
+    margin: 40px 0px;
+}
+
+.cadastro-cartelas .input-file input {
+    display: none;
+}
+
+
+.back-page {
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-error, .btn-send {
+    margin-top: 30px;
+}
+
+.message-error {
+    color: red;
+}
+
+.message-sucess {
+    color: green;
+}
+
+#preview {
+    width: 500px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.probability {
+    margin-bottom: 30px;
+}
+
+.message-error{
+    margin-top: 30px;
+}
+
+button.btn.btn-send, button.btn.btn-error {
+    padding: 17px 0px;
+    margin-top: 0px;
+}
+
+.probability p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.wrapper-cadastro-sucesso h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper-cadastro-sucesso a {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cadastro-cartelas h1 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    #preview {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 339px;
+    }
+}

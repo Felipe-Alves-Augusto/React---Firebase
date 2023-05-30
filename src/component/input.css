@@ -1,0 +1,18 @@
+.input {
+    width: 467px;
+    height: 60px;
+    left: 414px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 10px;
+    margin-bottom: 23px;
+}
+
+@media screen and (max-width: 768px) {
+    .input {
+        width: 90%;
+        margin: 0px auto 23px auto;
+        display: block;
+    }
+}

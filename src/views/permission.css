@@ -1,0 +1,17 @@
+.permission {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.permission h1 {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
